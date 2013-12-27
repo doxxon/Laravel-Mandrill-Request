@@ -20,5 +20,5 @@
             "Doxxon\\LaravelMandrillRequest": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

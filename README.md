@@ -7,7 +7,6 @@ Send Mandrill transactional emails from the Laravel 4 framework. This package is
 1. Edit your project's `composer.json` file and add a requirement for `doxxon/laravel-mandrill-request`.
 
 	    "require": {
-			"laravel/framework": "4.0.*",
 			"doxxon/laravel-mandrill-request": "dev-master"
 		}
 
