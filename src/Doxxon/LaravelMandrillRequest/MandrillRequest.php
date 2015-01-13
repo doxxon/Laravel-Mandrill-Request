@@ -10,11 +10,13 @@
 
 class MandrillRequest
 {
-	public static function request($method, $arguments = array())
+	public static function request($method, $arguments = array(), $api_key = null)
 	{
 
 		// load api key
-		$api_key = \Config::get('laravel-mandrill-request::api_key');
+		if(!$api_key) {
+			$api_key = \Config::get('laravel-mandrill-request::api_key');
+		}
 		
 		// determine endpoint
 		$endpoint = 'https://mandrillapp.com/api/1.0/'.$method.'.json';
