@@ -10,6 +10,6 @@ return array(
     | Set api keys from: https://mandrillapp.com/settings/index
     |
     */
-	'api_key' => 'your api key here',
+    'api_key' => 'your api key here',
 
 );
